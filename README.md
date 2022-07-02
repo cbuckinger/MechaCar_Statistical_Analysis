@@ -122,10 +122,9 @@ summary(lm(mpg ~vehicle_length +vehicle_weight+spoiler_angle+ground_clearance+AW
 
 Results  
 The results tabulate the residuals  
-Residuals:     
-     Min    | 	 1Q  | 	Median    |  	 3Q     |	 Max  
----|---|---|---|---
--19.4701|		-4.4994		|	-0.0692		|		5.4433		|	18.5849  
+Residuals|    Min    | 	 1Q  | 	Median    |  	 3Q     |	 Max  
+---|---|---|---|---|---
+|  |-19.4701|		-4.4994		|	-0.0692		|		5.4433		|	18.5849  
 
 and the coefficients:  
 
@@ -223,7 +222,7 @@ The requirement for this part is to determine if all manufacturing lots and each
 
 One Sample t-test  
 All Data (no grouping)  
-call  
+Call: 
 t.test(Coils$PSI,mu=1500) #compare sample versus population means  
 
 Results  
