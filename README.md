@@ -50,7 +50,7 @@ p-value is >.05; fail to reject Ho: sample is from a normal distribution
 ![Density_and_Hist_Weight](https://user-images.githubusercontent.com/101474477/176984922-b363a5ad-d27f-42d3-8917-90d59c84aabf.png)
 ![Density_and_Hist_Spoiler](https://user-images.githubusercontent.com/101474477/176984928-75fe7e6e-b711-40bd-8feb-0aec83ba0d9a.png)
 
- ![Density_and_Hist_Clearance](https://user-images.githubusercontent.com/101474477/176984933-302ec660-8b11-4e51-bb16-35d8b8f5ac46.png)
+![Density_and_Hist_Clearance](https://user-images.githubusercontent.com/101474477/176984933-302ec660-8b11-4e51-bb16-35d8b8f5ac46.png)
 
 
 Ground Clearance
@@ -91,7 +91,6 @@ length: Y Coefficients:
    (Intercept)  vehicle_length  
        -25.062           4.673  
 Y = -25.06+4.67*vehicle_length
-![Vehicle_Length_Mpg_Mecha_Car](https://user-images.githubusercontent.com/101474477/176984968-8268e66a-76c1-4270-b06d-a36a0006c2cb.png)
 
 MPG	Length
 33.51036	12.53421
