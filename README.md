@@ -1,9 +1,9 @@
-# MechaCar_Statistical_Analysis
-Overall  
+# MechaCar Statistical Analysis
+### Overall  
 An automobile manufacturer, AutosRUs, is testing its newest prototype, the MechaCar, but is encountering production issues. There are two areas of concern: one is the potential impact of specific design characteristics on the fuel efficiency of the prototype; and the second involves possible manufacturing problems with the suspension coils installed on the vehicles. This project is divided into two main analyses to address the two issues. The first deals with the issue of fuel efficiency as measured against five design variables. This analysis uses the MechaCar data set. The second analyzes differences in the weight capacity of three manufacturing lots of suspension coils.  Data for this analysis is contained in the Suspension Coils data set. We begin with the MechaCar analysis of fuel consumption (miles per gallon, or mpg).
 
 
-Part I - MechaCar MPG  
+## Part I - MechaCar MPG  
 
 
 Purpose  
@@ -14,12 +14,13 @@ The MechaCar data set consists of six variables and 50 observations in csv forma
 
 Tests of Normality   
 Shapiro-Wilk  
-Shapiro-Wilk identifies the probability that the data being analyzed is from a normal distribution. It generates two statistics, the w and the p.  The w statistic in conjunction with the degrees of freedom calculated in the test provides the p-value. The p value is the statistic by which we measure the validity of the null hypothesis based on the level of confidence set at the outset of the analysis.
-The null hypothesis (Ho) for Shapiro-Wilk is of a normal distribution. The alternate hypothesis (Ha) is non-normal distribution. Assuming an alpha of .05 (95% confidence level) the following is the guide: 
-P>.05: fail to reject Ho: not sufficient evidence to say the sample does not come from a normal distribution.
-p<.05: reject the null hypothesis: sufficient evidence to say that sample does not come from a normal distribution.
-Results of Shapiro-Wilk with Histogram and Density Plots
-All but one feature displayed normal distribution.  That feature was vehicle length; however non-normality was slight.
+Shapiro-Wilk identifies the probability that the data being analyzed is from a normal distribution. It generates two statistics, the w and the p.  The w statistic in conjunction with the degrees of freedom calculated in the test provides the p-value. The p value is the statistic by which we measure the validity of the null hypothesis based on the level of confidence set at the outset of the analysis.  
+The null hypothesis (Ho) for Shapiro-Wilk is of a normal distribution. The alternate hypothesis (Ha) is non-normal distribution. Assuming an alpha of .05 (95% confidence level) the following is the guide:  
+  p>.05: fail to reject Ho: not sufficient evidence to say the sample does not come from a normal distribution.   
+  p<.05: reject the null hypothesis: sufficient evidence to say that sample does not come from a normal distribution.  
+
+Results of Shapiro-Wilk with Histogram and Density Plots  
+All but one feature displayed normal distribution.  That feature was vehicle length; however, non-normality was slight.
 
 ![Density_and_Hist_MPG](https://user-images.githubusercontent.com/101474477/176984880-902d1e5f-d862-4cc3-a37c-03d4a9193a1c.png)
 ![Density_and_Hist_Length](https://user-images.githubusercontent.com/101474477/176984918-f7ff47d7-d195-4c3e-880e-c2cbc144ef15.png)
@@ -176,7 +177,7 @@ The MechaCar data displays properties of normal distribution. Regressing the tar
 
 
 
-Part II – Suspension Coils Weight Capacity  
+## Part II – Suspension Coils Weight Capacity  
 
 Purpose  
 The objective is to determine if the manufacturing process is consistent across different manufacturing lots for one automobile manufacturer, AutosRUs, which is testing its newest prototype, the MechaCar.  This part of the analysis compares the relative strength of three different manufacturing lots of suspension coils by measuring weight capacity. The analysis gathers key metrics across the groups for comparison: mean, median, variance, and standard deviation and develops a design specification requirement.
@@ -215,7 +216,7 @@ Design Specification
 •	Analyze the impact of the design on vehicle dynamics and performance  
 
 
-Part III – Suspension Coils t-test  
+## Part III – Suspension Coils t-test  
 
 
 The requirement for this part is to determine if all manufacturing lots and each lot individually are statistically different from the population mean by conducting t-tests.  The tests are executed on the entire population sample considered as a whole, and on each individual manufacturing lot.  Using the specified population mean of 1,500 pounds per square inch, the results are given below.  
@@ -279,20 +280,20 @@ p-value of .04 <.05. Fail to reject Ho: the true mean of the sample is not equal
   
 Distributions  
 
-     Lot 1	
+#### Lot 1	
   	
 ![density_Lot1_Coils](https://user-images.githubusercontent.com/101474477/176985044-3b83072b-08ff-4bfc-89dd-312b0f96f29b.png)
 
-     Lot 2  
+#### Lot 2  
 
 ![density_Lot2_Coils](https://user-images.githubusercontent.com/101474477/176985053-10e971a2-9548-4aa3-a2a1-0e86e3430954.png)   
 
-    Lot 3  
+#### Lot 3  
 
 ![density_Lot3_Coils](https://user-images.githubusercontent.com/101474477/176985070-5dfa6be8-858b-48da-8873-3fad9c9b8d19.png)  
 
 
-Part IV - Statistical Study Design   
+## Part IV - Statistical Study Design   
 
 AutosRUs is developing a new model, the MechaCar.  Having encountered production issues which it is addressing, further refinement of the car’s features and developing a robust marketing plan would be a critical step in moving forward.  To assist in those activities, I recommend creating and implementing strategic studies measuring the target market’s opinion of the MechaCar and its competitors.  In a broad range, steps include:  
 •	Identifying MechaCar’s target market, including:  
