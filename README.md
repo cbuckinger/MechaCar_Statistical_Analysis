@@ -14,7 +14,8 @@ The MechaCar data set consists of six variables and 50 observations in csv forma
 
 Tests of Normality   
 Shapiro-Wilk  
-Shapiro-Wilk identifies the probability that the data being analyzed is from a normal distribution. It generates two statistics, the w and the p.  The w statistic in conjunction with the degrees of freedom calculated in the test provides the p-value. The p value is the statistic by which we measure the validity of the null hypothesis based on the level of confidence set at the outset of the analysis.  
+Shapiro-Wilk identifies the probability that the data being analyzed is from a normal distribution. It generates two statistics, the w and the p.  The w statistic in conjunction with the degrees of freedom calculated in the test provides the p-value. The p value is the statistic by which we measure the validity of the null hypothesis based on the level of confidence set at the outset of the analysis. 
+
 The null hypothesis (Ho) for Shapiro-Wilk is of a normal distribution. The alternate hypothesis (Ha) is non-normal distribution. Assuming an alpha of .05 (95% confidence level) the following is the guide:  
   p>.05: fail to reject Ho: not sufficient evidence to say the sample does not come from a normal distribution.   
   p<.05: reject the null hypothesis: sufficient evidence to say that sample does not come from a normal distribution.  
