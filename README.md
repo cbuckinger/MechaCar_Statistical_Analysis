@@ -66,7 +66,8 @@ Ha: relationship
 
 To begin, displaying a quick scatter plot of pairs helps visualize the total landscape of the data. It shows modest relationship in the clustering of vehicle length and ground clearance relative to mpg: 
 
-![scatter_pairs_Mecha_Car](https://user-images.githubusercontent.com/101474477/176984955-daddf8b9-1420-4c63-a331-c46de73b4b72.png)
+
+![Screenshot (31)](https://user-images.githubusercontent.com/101474477/177200029-ab5f9817-23a4-4fab-91aa-50fb85556897.png)
 
 Additionally, there appears to be a less pronounced relationship between vehicle weight and mpg.  In the regression analysis which follows, the analysis will examine these interactions in finer detail.  
 
