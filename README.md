@@ -146,7 +146,7 @@ Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11 (.0000000000535)  
 
 Findings  
-Overall, based on the F-statistic of 22.07 and a p value well below zero, the model is useful in establishing a statistical relationship between the dependent variable and the independent variables.  
+Overall, based on the F-statistic of 22.07 and a p value practically zero, the model is useful in establishing a statistical relationship between the dependent variable and the independent variables.  
 Vehicle_length and vehicle_weight are statistically significant at .001 level, and vehicle_weight at .1.
 
 Residuals  
